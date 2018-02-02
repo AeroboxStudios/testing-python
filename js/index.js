@@ -2,7 +2,7 @@
 $(document).ready(function(){
 	var divs = document.querySelectorAll("div");
 
-	$('#header').load('testing-python/components/navbar.html')
+	$('#header').load('component/navbar.html')
 
 
 	/*for(var i = 0; i < divs.length; i++){
