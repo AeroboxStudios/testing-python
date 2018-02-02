@@ -1,14 +1,14 @@
 
 $(document).ready(function(){
-	var divs = document.querySelectorAll("div");
+	var imgs = document.querySelectorAll("div img");
 
 	$('#header').load('component/navbar.html')
 
-
-	/*for(var i = 0; i < divs.length; i++){
-		divs[i].style.backgroundImage = "url(testing-python/images" + (i+1) +".png)"
-	}*/
-
+	
+	for(var i = 0; i < imgs.length; i++){
+		imgs[i].src = "images/" + (i+1) +".png";
+	}
+	
 });
 
 /*

@@ -1,0 +1,38 @@
+
+h1 {
+	color: blue;
+}
+
+div {
+	height: 25vh;
+	background-size: cover;
+}
+
+img{
+	width: 300px;
+	height: 100px;
+}
+
+.test1 {
+	background-image: url("/testing-python/images/1.png");
+}
+
+.test2 {
+	background-image: url("/testing-python/images/2.png");
+}
+
+.test3 {
+	background-image: url("/testing-python/images/3.png");
+}
+
+.test4 {
+	background-image: url("/testing-python/images/4.png");
+}
+
+.test5 {
+	background-image: url("/testing-python/images/5.png");
+}
+
+.test6 {
+	background-image: url("/testing-python/images/6.png");
+}
